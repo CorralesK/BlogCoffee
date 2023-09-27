@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nav_styles.css">
+    <link rel="stylesheet" href="../css/about.css">
+
+    <title>Acerca de_JavaJolt</title>
+</head>
+<body>
+    <header class="header">
+        <div class="menu conteiner">
+            <a href="about.html" class="logo" ><img src="../image/semilla-de-cafe.png" alt="JavaJolt"></a>
+            
+            <label for="menu" class="menu-icon">
+                <img src="../image/menu.png" class="menu_icon" alt="">
+            </label>
+            <input type="checkbox" id="menu">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="category_types-coffee.html">Variedades y Tipos de Café</a></li>
+                    <li><a href="category_brands.html">Marcas y Orígenes</a></li>
+                    <li><a href="category_guide.html">Guía del Café</a></li>
+                    <li><a href="about.html">Acerca de</a></li>
+                    <li><button type="button" class="btn" id="btn-sesion">Cerrar Sesión</button></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div>
+                <div class="searcher">
+                    <input type="search" class="search" id="search" placeholder="Buscar..." required>
+                    <img id="searcher" src="../image/search.png" alt="">
+                    <ul id="filter" class="filter">
+                    </ul>
+                </div>
+            </div>
+            <div class="switcher"> 
+                    <input type="checkbox" class="toggle">
+                    <div class="option"></div>
+            </div>
+            
+        </div>
+    </header>
+    
+    <section class="hero hero-about">
+        <h1>Acerca de JavaJolt</h1>
+    </section>
+
+    <div class="about conteiner">
+        <div class="author">
+            <img src="../image/author.jpg" alt="author avatar">
+            <p>Escrito por: Kimberly Corrales</p>
+        </div>
+        <div class="content">
+            <p>En JavaJolt, exploramos el maravilloso mundo del café a través de la 
+                mirada de una apasionada amante de 19 años. Desde los distintos tipos de café 
+                que existen en el mundo hasta las diversas marcas que dan vida a esta bebida, 
+                estamos aquí para compartir conocimientos y descubrir juntos la magia que se 
+                esconde detrás de cada taza.
+            </p>
+            <p>
+                Mi pasión por el café comenzó hace tan solo unos años y, a pesar 
+                de mi juventud, he dedicado tiempo a investigar y experimentar con distintos métodos 
+                de preparación para disfrutar de los sabores más excepcionales que esta bebida ofrece. 
+                En JavaJolt, te invito a explorar la riqueza de aromas y sabores que el 
+                café tiene para ofrecer y a ser parte de una comunidad que celebra la pasión por esta 
+                estimulante bebida. 
+            </p>
+            <p>¡Acompáñame en este emocionante viaje café-adicto!</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer_content conteiner">
+            <div class="link">
+                <p>© 2023 JavaJolt by CorralesK</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/posts_data.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

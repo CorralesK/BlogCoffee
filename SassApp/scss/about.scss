@@ -1,0 +1,33 @@
+
+.about {
+    padding: 50px 20px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+
+    & img {
+        border-radius: 100px;
+        width: 3rem;
+        margin-right: 10px;
+        margin-left: 0;
+    }
+}
+
+.content {
+    margin-top: 50px;
+    text-align: justify;
+
+    & p {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 769px){
+    .about {
+        padding: 50px 200px;
+    }
+}

@@ -1,0 +1,35 @@
+/*Linght color*/
+/*Hero color*/
+/*Star color*/
+/*Search*/
+/*Dark color*/
+:root[data-theme="light"] {
+  --color-sass--primary: #fbfafa;
+  --color-sass--secondary: #0a0400;
+  --color-sass--terciary: #b48877;
+  --color-sass--quaternary: #e6e8ee;
+  --color-sass--fifth: #fbfafa;
+  --color-sass--active: #745c58;
+  --color-sass--font: #fbfafa;
+  --color-sass--general-font: #323337;
+  --color-sass--hero: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  --color-sass--star: #cfd0d6;
+  --color-sass--active-star: gold;
+  --color-sass--toggle: #cfd0d6;
+  --color-sass--search: rgba(223, 215, 215, 0.438); }
+
+:root[data-theme="dark"] {
+  --color-sass--primary: #130d09;
+  --color-sass--secondary: #0a0400;
+  --color-sass--terciary: #d3a28f;
+  --color-sass--quaternary: #0f0b08;
+  --color-sass--fifth: #160e0b;
+  --color-sass--active: #745c58;
+  --color-sass--font: #fbfafa;
+  --color-sass--general-font: #fbfafa;
+  --color-sass--hero: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  --color-sass--star: #cfd0d6;
+  --color-sass--active-star: gold;
+  --color-sass--toggle: #fbfafa;
+  --transform-option: translateX(90%);
+  --color-sass--search: rgba(223, 215, 215, 0.438); }

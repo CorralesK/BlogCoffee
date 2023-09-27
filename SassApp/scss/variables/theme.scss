@@ -1,0 +1,44 @@
+@import "../variables/colors.scss";
+
+:root[data-theme="light"] {
+    --color-sass--primary: #{$--primary-color};
+    --color-sass--secondary: #{$--secondary-color};
+    --color-sass--terciary: #{$--tertiary-color};
+    --color-sass--quaternary: #{$--coffee-color};
+    --color-sass--fifth: #{$--primary-color};
+
+    --color-sass--active: #{$--active-color};
+
+    --color-sass--font: #{$--nav-font-color};
+    --color-sass--general-font : #{$--font-color};
+
+    --color-sass--hero: #{$--hero-color};
+
+    --color-sass--star: #{$--star-color};
+    --color-sass--active-star : #{$--star-active-color};
+
+    --color-sass--toggle: #{$--star-color};
+    --color-sass--search: #{$--search-color};
+}
+
+:root[data-theme="dark"] {
+    --color-sass--primary: #{$--primary-color-dark};
+    --color-sass--secondary: #{$--secondary-color};
+    --color-sass--terciary: #{$--tertiary-color-dark};
+    --color-sass--quaternary: #{$--coffee-color-dark};
+    --color-sass--fifth: #{$--fifth-color};
+
+    --color-sass--active: #{$--active-color};
+
+    --color-sass--font: #{$--nav-font-color};
+    --color-sass--general-font : #{$--font-color-dark};
+
+    --color-sass--hero: #{$--hero-color};
+
+    --color-sass--star: #{$--star-color};
+    --color-sass--active-star: #{$--star-active-color};
+
+    --color-sass--toggle: #{$--nav-font-color};
+    --transform-option: translateX(90%);
+    --color-sass--search: #{$--search-color};
+}

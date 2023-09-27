@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#" id="login">
+                <div class="input-box">
+                    <img class="icon" src="../image/user.png" alt="">
+                    <input type="text" required>
+                    <label>Usuario</label>
+                </div>
+                <div class="input-box">
+                    <img class="icon" src="../image/padlock.png" alt="">
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Recordarme</label>
+                </div>
+                <button type="submit" class="btn" id="btn-login">Iniciar sesión</button>
+                <div class="login_register">
+                    <p>¿No tiene una cuenta?  
+                        <a href="#" class="register-link">Registrarse</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registro</h2>
+            <form action="#" id="register">
+                <div class="input-box">
+                    <img class="icon" src="../image/user.png" alt="">
+                    <input type="text" required>
+                    <label>Nombre de Usuario</label>
+                </div>
+                <div class="input-box">
+                    <img class="icon" src="../image/padlock.png" alt="">
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Recordarme</label>
+                </div>
+                <button type="submit" class="btn" id="btn-register">Registrar</button>
+                <div class="login_register">
+                    <p>¿Ya tiene cuenta?  
+                        <a href="#" class="login-link">Iniciar sesión</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>

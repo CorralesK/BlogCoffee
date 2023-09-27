@@ -1,0 +1,57 @@
+@import "./variables/theme.scss";
+
+.coffee {
+    padding: 50px 0;
+    background-color: var(--color-sass--quaternary);
+    position: relative;
+
+    &_content {
+        text-align: center;
+
+        & h2 {
+            font-size: 2rem;
+            text-transform: uppercase;
+            padding: 0 2rem;
+            margin-bottom: 15px;
+        }
+
+        & .txt_p {
+            font-size: 16px;
+            padding: 0 3rem;
+            margin-bottom: 20px;
+        }
+    }
+
+    &_group {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &_1 {
+        width: 55%;
+        margin: 15px;
+        padding: 15px;
+        & img{
+            width: 100%;
+            padding-bottom: 10px;
+        }
+        & p {
+            font-size: 13px;
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .coffee_group {
+        flex-direction: row;
+    }
+    .coffee_1 {
+        width: 20%;
+        & p {
+            display: initial;
+        }
+    }
+}

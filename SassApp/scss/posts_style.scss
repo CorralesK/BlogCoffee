@@ -1,0 +1,105 @@
+@import "./variables/colors.scss";
+
+a {
+    color: var(--color-sass--terciary);
+
+    &:hover {
+        color: var(--color-sass--active);
+    }
+}
+
+.blog {
+    padding: 50px 20px;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.date-author {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+
+    & img {
+        border-radius: 100px;
+        width: 3rem;
+        margin-right: 10px;
+    }
+}
+
+.rating {
+    margin-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.star{
+    width: 25px;
+    transition: color 0.2s;
+    color: var(--color-sass--star);
+
+    &:hover {
+        color: var(--color-sass--active-star);
+    }
+}
+
+.active {
+    color: var(--color-sass--active-star);
+}
+
+.section-content {
+    margin-top: 30px;
+    
+    & h3, h4, p, figure, ol, ul {
+        margin-bottom: 15px;
+    }
+
+    p, figure, ol, ul {
+        text-align: justify;
+    }
+
+    & li {
+        margin: 10px 40px;
+    }
+
+    & h2 {
+        margin: 25px 0 15px;
+    }
+
+    img {
+        margin-left: 20px;
+    }
+}
+
+.img_decoration {
+    width: 90%;
+}
+
+.img_cafe {
+    width: 60%;
+}
+
+.img_brand {
+    height: 200px;
+}
+
+@media only screen and (min-width: 769px){
+    .blog {
+        padding: 50px 200px;
+    }
+
+    .img_cafe {
+        width: 350px;
+    }
+}

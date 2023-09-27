@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nav_styles.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/post_list.css">
+    <title>Home_JavaJolt</title>
+</head>
+<body>
+    <header class="header">
+        <div class="menu conteiner">
+            <a href="about.html" class="logo" ><img src="../image/semilla-de-cafe.png" alt="JavaJolt"></a>
+            
+            <label for="menu" class="menu-icon">
+                <img src="../image/menu.png" class="menu_icon" alt="">
+            </label>
+            <input type="checkbox" id="menu">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="category_types-coffee.html">Variedades y Tipos de Café</a></li>
+                    <li><a href="category_brands.html">Marcas y Orígenes</a></li>
+                    <li><a href="category_guide.html">Guía del Café</a></li>
+                    <li><a href="about.html">Acerca de</a></li>
+                    <li><button type="button" class="btn" id="btn-sesion">Cerrar Sesión</button></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div>
+                <div class="searcher">
+                    <input type="search" class="search" id="search" placeholder="Buscar..." required>
+                    <img id="searcher" src="../image/search.png" alt="">
+                    <ul id="filter" class="filter">
+                    </ul>
+                </div>
+            </div>
+            <div class="switcher"> 
+                    <input type="checkbox" class="toggle">
+                    <div class="option"></div>
+            </div>
+            
+        </div>
+    </header>
+    
+    <section class="hero hero-index">
+        <h1 id="title">Descrubre el sabor del café</h1>
+        <p>Explora la cultura del café en nuestro blog y disfruta de la mejores recetas y consejos</p>
+    </section>
+
+    <section class="coffee">
+
+        <div class="coffee_content conteiner">
+
+            <h2>Los tipos de café más populares del mundo</h2>
+            <p class="txt_p">El café, con todas sus propiedades, se ha convertido en una de las bebidas más 
+                populares a nivel mundial. Resulta asombroso que se lleguen a servir alrededor de 400 mil 
+                millones de tazas de café en un solo año en todo el planeta.</p>
+
+            <div class="coffee_group">
+
+                <div class="coffee_1">
+                    <img src="../image/c1.png" alt="">
+                    <h3>ESPRESSO</h3>
+                    <p>Se trata del conocido café solo o café negro. 
+                        Es el más sencillo de hacer: se logra hirviendo el agua en contacto con el grano de café.</p>
+                </div>
+
+                <div class="coffee_1">
+                    <img src="../image/c2.png" alt="">
+                    <h3>CAFÉ CON LECHE</h3>
+                    <p>En el café con leche se utiliza la misma cantidad de leche que de café, 
+                        lo que logra un sabor dulce y menos intenso que el cortado.</p>
+                </div>
+
+                <div class="coffee_1">
+                    <img src="../image/c3.png" alt="">
+                    <h3>CAPUCHINO</h3>
+                    <p>El capuchino se prepara con un tercio de café y dos tercios de leche. 
+                        Además, se le suele agregar cacao en polvo por encima para endulzarlo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="post_list">
+        <section class="post conteiner">
+
+            <h2>Artículos</h2>
+            <p class="txt_p ">¿Te apasiona el café y toda su cultura? ¿Quieres conocer un poco más acerca de esta bebida de origen medieval y africano? 
+                Si es así… ¡no pierdas de vista nuestros posts!</p>
+
+            <div class="post_content" id="post_content"></div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer_content conteiner">
+            <div class="link">
+                <p>© 2023 JavaJolt by CorralesK</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/posts_data.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/postcards_layout.js"></script>
+</body>
+</html>

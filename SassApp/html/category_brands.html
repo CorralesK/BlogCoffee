@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nav_styles.css">
+    <link rel="stylesheet" href="../css/post_list.css">
+    <title>Marcas y Orígenes_JavaJolt</title>
+</head>
+<body>
+    <header class="header">
+        <div class="menu conteiner">
+            <a href="about.html" class="logo" ><img src="../image/semilla-de-cafe.png" alt="JavaJolt"></a>
+            
+            <label for="menu" class="menu-icon">
+                <img src="../image/menu.png" class="menu_icon" alt="">
+            </label>
+            <input type="checkbox" id="menu">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="category_types-coffee.html">Variedades y Tipos de Café</a></li>
+                    <li><a href="category_brands.html">Marcas y Orígenes</a></li>
+                    <li><a href="category_guide.html">Guía del Café</a></li>
+                    <li><a href="about.html">Acerca de</a></li>
+                    <li><button type="button" class="btn" id="btn-sesion">Cerrar Sesión</button></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div>
+                <div class="searcher">
+                    <input type="search" class="search" id="search" placeholder="Buscar..." required>
+                    <img id="searcher" src="../image/search.png" alt="">
+                    <ul id="filter" class="filter">
+                    </ul>
+                </div>
+            </div>
+            <div class="switcher"> 
+                    <input type="checkbox" class="toggle">
+                    <div class="option"></div>
+            </div>
+            
+        </div>
+    </header>
+    
+    <section class="hero hero-category2">
+        <h1 id="title">Marcas y Orígenes</h1>
+    </section>
+
+    <main class="post_list">
+        <section class="post conteiner">
+
+            <h2>Artículos Relacionados</h2>
+
+            <div class="post_content" id="post_content"></div>
+            
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer_content conteiner">
+            <div class="link">
+                <p>© 2023 JavaJolt by CorralesK</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/posts_data.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/postcards_layout.js"></script>
+</body>
+</html>

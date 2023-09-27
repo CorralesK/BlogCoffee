@@ -1,0 +1,63 @@
+/*Linght color*/
+/*Hero color*/
+/*Star color*/
+/*Dark color*/
+:root[data-theme="light"] {
+  --color-sass--primary: #fbfafa;
+  --color-sass--secondary: #0a0400;
+  --color-sass--terciary: #b48877;
+  --color-sass--quaternary: #e6e8ee;
+  --color-sass--active: #745c58;
+  --color-sass--font: #fbfafa;
+  --color-sass--general-font: #323337;
+  --color-sass--hero: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  --color-sass--star: #d6d7dd;
+  --color-sass--active-star: gold;
+  --color-sass--toggle: #323337; }
+
+:root[data-theme="dark"] {
+  --color-sass--primary: #140f0be5;
+  --color-sass--secondary: #0a0400;
+  --color-sass--terciary: #d3a28f;
+  --color-sass--quaternary: #0f0b08ee;
+  --color-sass--active: #745c58;
+  --color-sass--font: #fbfafa;
+  --color-sass--general-font: #fbfafa;
+  --color-sass--hero: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  --color-sass--star: #d6d7dd;
+  --color-sass--active-star: gold;
+  --color-sass--toggle: #fbfafa;
+  --transform-option: translateX(100%); }
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 70vh;
+  padding: 40px;
+  color: var(--color-sass--font);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .hero h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    margin-bottom: 15px; }
+  .hero p {
+    font-size: 16px; }
+
+.hero-index {
+  background-image: var(--color-sass--hero), url(https://megustaestesitio.es/wp-content/uploads/2023/01/interior-cafeteria.jpg); }
+
+.hero-category1 {
+  background-image: var(--color-sass--hero), url(../image/hero_category_types_coffee.jpeg); }
+
+.hero-category2 {
+  background-image: var(--color-sass--hero), url(../image/hero_category_coffee_brands.jpeg); }
+
+.hero-about {
+  background-image: url(../image/JavaJolt.png); }
+  .hero-about h1 {
+    display: none; }
